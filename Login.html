@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login Form with Social Logins</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-form">
+      <h2>Login</h2>
+      <form action="#" method="POST" id="loginForm">
+        <div class="input-group">
+          <input type="text" id="username" name="username" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="submit-btn">Login</button>
+      </form>
+      <div class="social-login">
+        <button class="social-btn facebook-btn">
+          <i class="fab fa-facebook-f"></i> Login with Facebook
+        </button>
+        <button class="social-btn google-btn">
+          <i class="fab fa-google"></i> Login with Google
+        </button>
+      </div>
+      <p class="message">Don't have an account? <a href="#">Sign Up</a></p>
+    </div>
+  </div>
+  <script src="Login.js"></script>
+</body>
+</html>
